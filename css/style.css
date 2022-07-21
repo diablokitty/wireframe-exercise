@@ -1,0 +1,53 @@
+
+/* Example css from class demo
+.container {
+  border: 1px solid black;
+}
+
+.container div {
+  background-color: lightgrey;
+  margin: .5rem;
+  border: 1px solid;
+
+}
+*/
+
+header {
+  background-color: darkgray;
+  margin-bottom: 30px;
+  
+  
+}
+
+header nav {
+  width: 960px;
+  margin: auto;
+  display: flex;
+  margin: auto;
+  
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  
+}
+ 
+main {
+  /*background-color:pink; */
+  width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+main img {
+  margin-bottom: 30px;
+
+}
+footer {
+  background-color: gray;
+  height: 50px;
+}
